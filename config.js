@@ -10,7 +10,7 @@ module.exports = {
   //   curl -X POST 'https://YOUR-SLACK-TEAM.slack.com/api/users.admin.invite' \
   //   --data 'email=EMAIL&token=TOKEN&set_active=true' \
   //   --compressed
-  slacktoken: process.env.SLACK_TOKEN || 'xoxp-974096622576-963989704449-977616471318-4e0e8440a50e3094c7ba0a20e626ef3f',
+  slacktoken: process.env.SLACK_TOKEN || 'xoxp-974096622576-963989704449-993769232339-e16e3cb144c534852592d687e137f6dc',
   // an optional security measure - if it is set, then that token will be required to get invited.
   inviteToken: process.env.INVITE_TOKEN || null,
   // an optional security measure - if both are set, then recaptcha will be used.
