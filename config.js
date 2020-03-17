@@ -21,3 +21,4 @@ module.exports = {
   subpath: process.env.SUBPATH || "/"
 
 };
+
